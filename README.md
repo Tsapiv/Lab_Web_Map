@@ -43,7 +43,7 @@ And for the full picture:
     Please wait...
     Finished. Please have look at the map 2010_movies_map.html
 ***
-![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
+![screenshot of sample](https://github.com/Tsapiv/Lab_Web_Map/blob/master/examples/map_example_2.png)
 ***
 ### Contributing
 * Sometimes, there can occur some issues with `geopy`, just ignore it.
