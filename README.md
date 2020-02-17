@@ -2,17 +2,21 @@ Web Film Map
 ==========================
 Aim of this project is to let user see on the map places, near given location, where famous movies were filmed.
 ##Getting Started
+------------------
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ###Prerequisites
+-----------------
 That're things you need to install to get started
 
     python -m pip install folium
     python -m pip install geopy
     python -m pip install pycountry
 ###Installing
+-------------
 
     $ git clone https://github.com/Tsapiv/Lab_Web_Map.git
 ###Running
+----------
 `main.py` is a module to run. Once you run it, you'll get request like this `Please enter a year you would like to have a map for:`
 It's better to enter year closer to the current one because there're more data available. For now let it be `1995`.
 The next request `Please enter your location (format: lat, long):` asks you enter coordinates.
@@ -42,8 +46,10 @@ And for the full picture:
     Finished. Please have look at the map 2010_movies_map.html
 ![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
 ###Contributing
+---------------
 * Sometimes, there can occur some issues with `geopy`, just ignore it.
 * The third layer of this map color countries depending on their area. The country of the territory of which the user-specified coordinates belong is highlighted with blue color.
 ###Authors
+----------
 * Tsapiv Volodymyr
 
