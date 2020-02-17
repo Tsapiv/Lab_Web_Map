@@ -1,17 +1,16 @@
 Web Film Map
 ==========================
 Aim of this project is to let user see on the map places, near given location, where famous movies were filmed.
-##Getting Started
+## h2 Getting Started
 ------------------
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-###Prerequisites
------------------
+### h3 Prerequisites
 That're things you need to install to get started
 
     python -m pip install folium
     python -m pip install geopy
     python -m pip install pycountry
-###Installing
+### h3 Installing
 -------------
 
     $ git clone https://github.com/Tsapiv/Lab_Web_Map.git
