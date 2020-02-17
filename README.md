@@ -4,7 +4,7 @@ Aim of this project is to let user see on the map places, near given location, w
 ##Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 ###Prerequisites
-That`re things you need to install to get started
+That're things you need to install to get started
 
     python -m pip install folium
     python -m pip install geopy
