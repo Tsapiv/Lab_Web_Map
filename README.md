@@ -25,7 +25,9 @@ For now, let it be `31, -95`. It is somewhere in USA. If everything went well, i
     Finished. Please have look at the map 1995_movies_map.html
 So, what you are left to do is to open `1995_movies_map.html` in your browser.
 In this particular case, you must get something like this:
-![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
+***
+![screenshot of sample](https://github.com/Tsapiv/Lab_Web_Map/blob/master/examples/map_example_1.png)
+***
 However, if your input is like this:
 
     Please enter a year you would like to have a map for: 2005
@@ -40,7 +42,9 @@ And for the full picture:
     Map is generating...
     Please wait...
     Finished. Please have look at the map 2010_movies_map.html
+***
 ![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
+***
 ### Contributing
 * Sometimes, there can occur some issues with `geopy`, just ignore it.
 * The third layer of this map color countries depending on their area. The country of the territory of which the user-specified coordinates belong is highlighted with blue color.
