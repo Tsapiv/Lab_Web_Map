@@ -48,6 +48,16 @@ And for the full picture:
 ### Contributing
 * Sometimes, there can occur some issues with `geopy`, just ignore it.
 * The third layer of this map color countries depending on their area. The country of the territory of which the user-specified coordinates belong is highlighted with blue color.
+### Markup of the map in HTML
+`<!DOCTYPE html>` - it's start of document which let browser know what type and version of markup language is going to be used.
+***
+`<html>` and `<\html>` are used to mark start and end of `html`-document.
+***
+`<head>` contains some useful information for browser - metadata:
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css">` - CSS link<br>
+`charset=UTF-8`- encoding<br> And so on...<br>
+In `<body>` there're a lot of `<div class`-es, but the most interesting for us is `<div class="leaflet-pane leaflet-overlay-pane"` where stores all data needed for creating borders between countries, models of markers and painting countries with colors.<br>
+`<script>` contain some settings of the base map and each layer.
 ### Authors
 * Tsapiv Volodymyr
 
